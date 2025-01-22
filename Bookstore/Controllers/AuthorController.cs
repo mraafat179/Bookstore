@@ -7,7 +7,7 @@ namespace Bookstore.Controllers
 {
     public class AuthorController : Controller
     {
-        // GET: AuthorController
+       
         private readonly IBookstoreRepository<Author> authorRepo;
         public AuthorController(IBookstoreRepository<Author> authorRepo)
         {
